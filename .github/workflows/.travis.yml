@@ -1,11 +1,2 @@
-name: Travis CI
-
-on: push
-
 language: java
-
-jdk:
-  - oraclejdk8
-  - openjdk8
-
 script: mvn clean install
